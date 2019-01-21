@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 const components = (() => {
   const modulesContext = require.context('./', true, /\.vue$/)
   const chunks = modulesContext.keys().reduce((object, key) => {
